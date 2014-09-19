@@ -18,9 +18,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="org.lucasr.twowayview"
           android:versionCode="1"
+          xmlns:tools="http://schemas.android.com/tools"
           android:versionName="Alpha 1" >
 
-    <uses-sdk android:minSdkVersion="4"
-              android:targetSdkVersion="16" />
+    <uses-sdk
+        tools:node="replace" />
 
 </manifest>

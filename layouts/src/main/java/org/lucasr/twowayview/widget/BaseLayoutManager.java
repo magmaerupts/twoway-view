@@ -197,7 +197,8 @@ public abstract class BaseLayoutManager extends TwoWayLayoutManager {
     }
 
     boolean isVertical() {
-        return (getOrientation() == Orientation.VERTICAL);
+        return
+                (getOrientation() == Orientation.VERTICAL);
     }
 
     void forceCreateLanes() {
